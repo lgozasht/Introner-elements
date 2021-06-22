@@ -25,7 +25,7 @@ Appends coordinates for IEs identified by "FIND_CLUSTERS_ALLEUKS.pl". Run in the
 ### Usage
 
 ```
-perl GetCoordinates.pl.PL *.Pass
+perl GetCoordinates.pl *.Pass
 ```
 
 ## cleanTree.py
