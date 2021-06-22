@@ -29,7 +29,7 @@ perl GetCoordinates.pl *.Pass
 ```
 
 ## blastBack.py
-Constructs a consensus sequence for each IE families using a positional weight matrix and blasts each consensus back at the reference to identify candidate IEs that exist outside of genes or are not annotated as introns. Also converts IE family file names into numbered fasta files. Requires a text file containing a list of directory paths separated by line. Each directory should contain all IE family ".withcoords" files for a given genome and the respective reference fasta file.
+Constructs a consensus sequence for each IE families using a positional weight matrix and blasts each consensus back at the reference to identify candidate IEs that exist outside of genes or are not annotated as introns. Also converts IE family file names into numbered fasta files. Requires a tab delimitted file containing the directory path and reference fasta file for each considered genome separated by line. Each directory should contain all IE family ".withcoords" files for a given genome and the respective reference fasta file.
 
 ### Dependencies
 
