@@ -5,8 +5,13 @@
 Identifies candidate introner elements in a species by clustering introns based on sequence and length similarity and filtering paralogs. Requires a genome annotation in gff format and corresponding fasta file as input. The annotation file and fasta file must have the same prefix (e.g. Name.gff and Name.fa).
 
 ### Dependencies
-Diamond
-https://github.com/bbuchfink/diamond
+
+#### Diamond
+Install from https://github.com/bbuchfink/diamond and add to PATH
+
+#### Megablast
+Install from https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy.NOTSUPPORTED/2.2.26/ or later and add to PATH
+
 
 ### Usage
 
