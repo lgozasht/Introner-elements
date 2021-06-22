@@ -19,6 +19,14 @@ Install from https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy.NOTSUPPORTED/
 perl FIND_CLUSTERS_ALLEUKS_7.PL species.gff
 ```
 
+## GetCoordinates.pl
+Appends coordinates for IEs identified by "FIND_CLUSTERS_ALLEUKS.pl". Run in the same directory as the inpput and output files of "FIND_CLUSTERS_ALLEUKS.pl".
+
+### Usage
+
+```
+perl GetCoordinates.pl.PL *.Pass
+```
 
 ## cleanTree.py
 Removes parenthesis from node names that perturb tree structure.
