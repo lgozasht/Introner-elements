@@ -42,7 +42,7 @@ Install from https://mafft.cbrc.jp/alignment/software/source.html and add to PAT
 ### Usage
 
 ```
-perl FIND_CLUSTERS_ALLEUKS_7.PL species.gff
+python blastBack.py directory_list.txt
 ```
 
 
