@@ -28,6 +28,24 @@ Appends coordinates for IEs identified by "FIND_CLUSTERS_ALLEUKS.pl". Run in the
 perl GetCoordinates.pl *.Pass
 ```
 
+## blastBack.py
+
+### Dependencies
+
+#### Diamond
+Install from https://github.com/bbuchfink/diamond and add to PATH
+
+#### Megablast
+Install from https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy.NOTSUPPORTED/2.2.26/ or later and add to PATH
+
+
+### Usage
+
+```
+perl FIND_CLUSTERS_ALLEUKS_7.PL species.gff
+```
+
+
 ## cleanTree.py
 Removes parenthesis from node names that perturb tree structure.
 
