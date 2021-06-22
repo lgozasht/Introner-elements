@@ -57,9 +57,10 @@ def main():
     with open(sys.args[1],'r') as f:
         for line in f:
             try: 
-                dir = line.strip()
-            
-                fasta = glob.glob('{0}/*.fa'.format(dir))[0]
+                sp = line.strip().split('\t')
+                dir = sp[0]
+                fasta = sp[1]
+                
                 print(fasta)
                 os.system('cp rename.bash {0}'.format(dir))
                 os.chdir(dir)
