@@ -64,7 +64,7 @@ def main():
                 os.system('cp rename.bash {0}'.format(dir))
                 os.chdir(dir)
                 os.system('pwd')
-                os.system('bash rename.bash')
+                os.system('bash rename.sh')
        	        os.chdir('..')
 
                 myAlignments = Consensus(dir)
