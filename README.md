@@ -21,13 +21,14 @@ perl FIND_CLUSTERS_ALLEUKS_7.PL species.gff
 
 
 ## cleanTree.py
+Removes parenthesis from node names that perturb tree structure.
 
 ### Dependencies
+
 #### ete3
 http://etetoolkit.org/docs/latest/tutorial/tutorial_trees.html
 
-Removes parenthesis from node names that perturb tree structure.
-
+### Usage
 ```
 python cleanTree.py Tree.newick
 ```
