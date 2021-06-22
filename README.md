@@ -25,7 +25,7 @@ Removes parenthesis from node names that perturb tree structure.
 
 ### Dependencies
 
-*ete3*: http://etetoolkit.org/docs/latest/tutorial/tutorial_trees.html
+**ete3**: http://etetoolkit.org/docs/latest/tutorial/tutorial_trees.html
 
 ### Usage
 ```
