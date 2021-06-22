@@ -2,7 +2,7 @@
 
 ## FIND_CLUSTERS_ALLEUKS.pl
 
-Identifies candidate introner elements in a species by clustering introns based on sequence and length similarity and filtering paralogs. Requires a genome annotation in gff format and corresponding fasta file as input. The annotation file and fasta file must have the same prefix (e.g. Name.gff and Name.fa).
+Identifies candidate introner elements in a species by clustering introns based on sequence and length similarity and filtering paralogs. Requires a genome annotation in gff format and corresponding fasta file in the same directory as input. The annotation file and fasta file must have the same prefix (e.g. Name.gff and Name.fa). Outputs candidate introner element familes, separated by family in fasta files ending with ".Pass"
 
 ### Dependencies
 
