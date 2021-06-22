@@ -24,7 +24,7 @@ perl FIND_CLUSTERS_ALLEUKS_7.PL species.gff
 
 ### Dependencies
 #### ete3
-Install from http://etetoolkit.org/docs/latest/tutorial/tutorial_trees.html
+http://etetoolkit.org/docs/latest/tutorial/tutorial_trees.html
 
 Removes parenthesis from node names that perturb tree structure.
 
