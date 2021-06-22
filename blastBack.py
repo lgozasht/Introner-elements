@@ -59,7 +59,7 @@ def main():
             try: 
                 sp = line.strip().split('\t')
                 dir = sp[0]
-                fasta = sp[1]
+                fasta = '{0}/{1}'.format(dir,sp[1])
                 
                 print(fasta)
                 os.system('cp rename.bash {0}'.format(dir))
