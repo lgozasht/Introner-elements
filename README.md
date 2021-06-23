@@ -54,6 +54,16 @@ Uses output from "blastBack.py" to identify candidate IE insertions outside of g
 python outsideGenes.py directory_list.tsv
 ```
 
+## removeDuplicates.py
+Removes duplicate hits across IE families after the blast back step. Requires a text file with the path to each directory containing the output of "outsideGenes.py"  separated by line.
+
+### Usage
+
+```
+python removeDuplicates.py directory_list.tsv
+```
+
+
 ## cleanTree.py
 Removes parenthesis from node names that perturb tree structure.
 
