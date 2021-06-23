@@ -51,7 +51,7 @@ Uses output from "blastBack.py" to identify candidate IE insertions outside of g
 ### Usage
 
 ```
-python blastBack.py directory_list.tsv
+python outsideGenes.py directory_list.tsv
 ```
 
 ## cleanTree.py
