@@ -75,3 +75,10 @@ Removes parenthesis from node names that perturb tree structure.
 ```
 python cleanTree.py Tree.newick
 ```
+
+
+# Update from 2024 study
+
+We have now uploaded all introners identified in our 2024 study. See file all_introners_2024.tar.gz . Introners are in exon-intron-exon fasta format. Each introner was extracted along with 20bp exoninc sequence on each flank. Flanking sequence is in capital letters and intronic sequence is in lowercase letters. For example:
+if the sequence is AGTAGAGAGAAGTAGAGAGAgtnnnnnnnagAGTAGAGAGAAGTAGAGAGA, gtnnnnnnnag is the intron.
+
